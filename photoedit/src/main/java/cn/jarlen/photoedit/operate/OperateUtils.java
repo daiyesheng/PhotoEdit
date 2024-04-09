@@ -65,6 +65,7 @@ public class OperateUtils {
         opt.inPurgeable = true;
         opt.inInputShareable = true;
         Bitmap bitmap = BitmapFactory.decodeFile(filePath, opt);
+//        Bitmap bitmap = ImageUtils.getBitmap(filePath);
         int layoutHeight = contentView.getHeight();
         float scale = 0f;
         int bitmapHeight = bitmap.getHeight();
